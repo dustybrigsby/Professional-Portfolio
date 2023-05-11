@@ -1,0 +1,25 @@
+:root {
+  --dark-grey: #0e0e0e;
+  --lblue: #ededf6;
+  --dblue: #0e0e0e;
+}
+
+/* set text selection highlight color and background */
+::selection {
+  background-color: var(--lblue);
+  color: var(--dark-grey);
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+    sans-serif;
+}
+
+header {
+  background-color: var(--dark-grey);
+}
+
+#marquee {
+    
+}
