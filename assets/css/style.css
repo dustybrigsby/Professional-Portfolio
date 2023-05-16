@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
@@ -37,7 +38,7 @@ h6 {
 
 h1 {
   /* 4rem = 40px (4 * 10px) */
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2 {
@@ -65,21 +66,32 @@ p {
 }
 
 header {
-  margin-bottom: 0.625rem;
+  height: 10vh;
+  margin-bottom: 1rem;
   background-color: var(--dark-grey);
   display: flex;
+  align-content: space-between;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
 }
 
 header h1 {
   color: var(--dark-grey);
   background-color: var(--lblue);
-  position: absolute;
+  /* position: absolute; */
+  margin: 1rem 0;
+  padding: 1rem 1rem 1rem 3rem;
 }
 
 nav {
   display: flex;
+  justify-content: flex-end;
+  color: var(--lblue);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
 }
 
 main {
