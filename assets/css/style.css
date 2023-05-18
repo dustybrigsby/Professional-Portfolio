@@ -37,7 +37,7 @@ h6 {
 }
 
 h1 {
-  /* 4rem = 40px (4 * 10px) */
+  /* 6rem = 60px (6 * 10px) */
   font-size: 6rem;
 }
 
@@ -63,24 +63,24 @@ h6 {
 
 p {
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 header {
-  height: 10vh;
+  height: 12vh;
   margin-bottom: 1rem;
   background-color: var(--dark-grey);
   display: flex;
   align-content: space-between;
   flex-direction: column;
-  /* position: relative; */
 }
 
 header h1 {
   color: var(--dark-grey);
   background-color: var(--lblue);
-  /* position: absolute; */
   margin: 1rem 0;
   padding: 1rem 1rem 1rem 3rem;
+  text-align: center;
 }
 
 nav {
@@ -90,12 +90,32 @@ nav {
 }
 
 nav ul {
+  width: 100vw;
   display: flex;
   justify-content: space-around;
 }
 
+nav li {
+}
+
 main {
-  max-width: 100%;
+  /* width: 100vw; */
+}
+
+#splash {
+  display: flex;
+}
+
+#splash img {
+  width: 100vw;
+  flex: 1 1 auto;
+  position: relative;
+}
+
+#splash h2 {
+  width: 100vw;
+  align-content: flex-end;
+  position: absolute;
 }
 
 .tiles {
@@ -125,6 +145,7 @@ main {
 }
 
 #marquee {
+  flex: ;
 }
 
 #library img {

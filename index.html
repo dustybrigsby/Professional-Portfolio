@@ -17,18 +17,21 @@
 
       <nav>
         <ul>
-          <li><a href="">About Me</a></li>
-          <li><a href="">Work</a></li>
-          <li><a href="">Contact Me</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-info">Contact Me</a></li>
           <li><a href="">Resume</a></li>
         </ul>
       </nav>
     </header>
+    
     <main>
       <section id="splash">
-        <h2>Cool subtitle here!</h2>
+        <img src="assets/photos/remy.JPG" alt="A black dog pants while laying in a field of green grass.">
+        <h2>Look at my dog Remy!</h2>
       </section>
-      <section class="tiles">
+
+      <section class="tiles" id="about-me">
         <div class="tile-title">
           <h3>About Me</h3>
         </div>
@@ -43,14 +46,16 @@
             hood and windshield sleeps on my head attack like a
             vicious monster but kitty ipsum dolor sit amet, shed
             everywhere shed everywhere stretching attack your
-            ankles chase the red dot
+            ankles chase the red dot.
           </p>
         </div>
       </section>
-      <section class="tiles">
+
+      <section class="tiles" id="work">
         <div class="tile-title">
           <h3>Work</h3>
         </div>
+
         <div class="tile" id="marquee">
           <img
             src="../Module_2_Challenge/assets/photos/coast.webp"
@@ -61,6 +66,7 @@
             <p>MERN Stack</p>
           </div>
         </div>
+
         <div id="library">
           <div class="tile">
             <img src="" alt="">
@@ -69,6 +75,7 @@
               <p>Node/IoT</p>
             </div>
           </div>
+
           <div class="tile">
             <img src="" alt="">
             <div class="tile-caption">
@@ -76,6 +83,7 @@
               <p>React/JavaScript/CSS</p>
             </div>
           </div>
+
           <div class="tile">
             <img src="" alt="">
             <img src="" alt="" />
@@ -84,6 +92,7 @@
               <p>MERN Stack</p>
             </div>
           </div>
+
           <div class="tile">
             <img src="../Module_2_Challenge/assets/photos/run_buddy.jpg" alt="Feet level view of people passing by in a distance running race.">
             <div class="tile-caption">
@@ -94,7 +103,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="contact-info">
       <div>
         <h3>Contact Me</h3>
       </div>
