@@ -1,125 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>Dusty Brigsby Portfolio</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Dusty Brigsby</h1>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dusty Brigsby Portfolio</title>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-      <nav>
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact-info">Contact Me</a></li>
-          <li><a href="">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-    
-    <main>
-      <section id="splash">
-        <img src="assets/photos/remy.JPG" alt="A black dog pants while laying in a field of green grass.">
-        <h2>Look at my dog Remy!</h2>
-      </section>
+<body>
+  <header>
+    <h1>Dusty Brigsby</h1>
 
-      <section class="tiles" id="about-me">
-        <div class="tile-title">
-          <h3>About Me</h3>
+    <nav>
+      <a href="#about-me">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact-info">Contact Me</a>
+      <a href="">Resume</a>
+    </nav>
+  </header>
+  <section id="splash">
+    <h2>Look at my dog Remy!</h2>
+  </section>
+  <main>
+    <div class="grid-container">
+      <div class="grid-item-title" id="about-me-title">
+        <h3>About Me</h3>
+      </div>
+      <div class="grid-item" id="about-me-text">
+        <p>
+          Pet right here, no not there, here, no fool, right
+          here that other cat smells funny you should really
+          give me all the treats because i smell the best and
+          omg you finally got the right spot and i love you
+          right now throwup on your pillow, but chase ball of
+          string. Walk on car leaving trail of paw prints on
+          hood and windshield sleeps on my head attack like a
+          vicious monster but kitty ipsum dolor sit amet, shed
+          everywhere shed everywhere stretching attack your
+          ankles chase the red dot.
+        </p>
+      </div>
+      <div class="grid-item-title" id="work">
+        <h3>Work</h3>
+      </div>
+
+      <div class="grid-item" id="marquee">
+        <img src="./assets/photos/coast.webp" alt="Looking down a misty Pacific Northwest coastline." />
+        <div class="tile-caption" id="marquee-caption">
+          <h4>Surf Report</h4>
+          <p>MERN Stack</p>
         </div>
-        <div class="tile">
-          <p>
-            Pet right here, no not there, here, no fool, right
-            here that other cat smells funny you should really
-            give me all the treats because i smell the best and
-            omg you finally got the right spot and i love you
-            right now throwup on your pillow, but chase ball of
-            string. Walk on car leaving trail of paw prints on
-            hood and windshield sleeps on my head attack like a
-            vicious monster but kitty ipsum dolor sit amet, shed
-            everywhere shed everywhere stretching attack your
-            ankles chase the red dot.
-          </p>
-        </div>
-      </section>
-
-      <section class="tiles" id="work">
-        <div class="tile-title">
-          <h3>Work</h3>
-        </div>
-
-        <div class="tile" id="marquee">
-          <img
-            src="../Module_2_Challenge/assets/photos/coast.webp"
-            alt="Looking down a misty Pacific Northwest coastline."
-          />
+      </div>
+      <div></div>
+      <section id="projects">
+        <div class="tile" id="library">
           <div class="tile-caption">
-            <h4>Surf Report</h4>
+            <h4>LED Wall</h4>
+            <p>Node/IoT</p>
+          </div>
+        </div>
+
+        <div class="tile" id="calculator">
+          <div class="tile-caption">
+            <h4>Calculator</h4>
+            <p>React/JavaScript/CSS</p>
+          </div>
+        </div>
+
+        <div class="tile" id="puzzles">
+          <div class="tile-caption">
+            <h4>Pastel Puzzels</h4>
             <p>MERN Stack</p>
           </div>
         </div>
 
-        <div id="library">
-          <div class="tile">
-            <img src="" alt="">
-            <div class="tile-caption">
-              <h4>LED Wall</h4>
-              <p>Node/IoT</p>
-            </div>
-          </div>
-
-          <div class="tile">
-            <img src="" alt="">
-            <div class="tile-caption">
-              <h4>Calculator</h4>
-              <p>React/JavaScript/CSS</p>
-            </div>
-          </div>
-
-          <div class="tile">
-            <img src="" alt="">
-            <img src="" alt="" />
-            <div class="tile-caption">
-              <h4>Pastel Puzzels</h4>
-              <p>MERN Stack</p>
-            </div>
-          </div>
-
-          <div class="tile">
-            <img src="../Module_2_Challenge/assets/photos/run_buddy.jpg" alt="Feet level view of people passing by in a distance running race.">
-            <div class="tile-caption">
-              <h4>Run Buddy</h4>
-              <p>HTML/CSS</p>
-            </div>
+        <div class="tile" id="run_buddy">
+          <div class="tile-caption">
+            <h4>Run Buddy</h4>
+            <p>HTML/CSS</p>
           </div>
         </div>
       </section>
-    </main>
-    <footer id="contact-info">
       <div>
         <h3>Contact Me</h3>
       </div>
-      <div>
-        <ul>
-          <li>503.123.4567</li>
-          <li>
-            <a href="mailto:dustybrigsby@gmail.com"
-              >dustybrigsby@gmail.com</a
-            >
-          </li>
-          <li>GitHub</li>
-          <li>Twitter</li>
-          <li>Spotify</li>
-        </ul>
+      <div id="contact-info">
+        <p>503.123.4567</p>
+        <a href="mailto:dustybrigsby@gmail.com">
+          <p>dustybrigsby@gmail.com</p>
+        </a>
+        <a href="https://github.com/dustybrigsby">
+          <p>GitHub</p>
+        </a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </main>
+
+</body>
+
 </html>
